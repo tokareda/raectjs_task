@@ -1,0 +1,168 @@
+.Toolbar {
+  position: absolute;
+  width: 675px;
+  background: #b6b0b0;
+  height: 10%;
+}
+
+.Toolbar__navigation {
+  height: 100%;
+  align-items: center;
+}
+.TextONiMage {
+  text-align: center;
+  margin-top: 70px;
+
+  color: rgb(247, 239, 239);
+  text-shadow: 5px 5px 10px rgb(19, 17, 17);
+  font-variant: normal;
+}
+.TextONiMage h1 {
+  font-size: 50px;
+}
+.TextONiMage p1 {
+  font-size: 25px;
+}
+
+.Toolbar__navigation_items li {
+  margin-top: 20px;
+  padding: 0 0.3rem;
+  font-size: 11.95px;
+}
+.Toolbar__navigation_items button {
+  margin-left: 102.5px;
+}
+
+.Toolbar__navigation_items dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.Toolbar__navigation_items a {
+  color: white;
+  text-decoration: none;
+}
+
+.Toolbar__navigation_items a:hover,
+.Toolbar__navigation_items a:active {
+  color: darkgreen;
+  text-decoration: underline;
+}
+
+.add_info,
+.add_additional_info {
+  width: 112px;
+  height: 100px;
+  text-shadow: 5px 5px 10px rgb(180, 170, 170);
+  font-variant: normal;
+}
+.add_info p,
+.add_additional_info p {
+  font-size: 15px;
+  color: black;
+}
+.add_info h1,
+.add_additional_info h1 {
+  font-size: 40px;
+  color: green;
+}
+.add_additional_info dl {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+
+.add_additional_info li {
+  margin-top: 20px;
+  padding: 0 0.3rem;
+  font-size: 11.95px;
+}
+
+.add_info dl {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.add_info li {
+  margin-top: 20px;
+  padding: 0 2.5rem;
+  font-size: 11.95px;
+}
+.quote {
+  padding: 100px;
+  margin-left: 100;
+  color: green;
+}
+.quote h1 {
+  padding: 0px 100px 0px;
+}
+
+.quote sub {
+  color: black;
+  width: 263px;
+  height: 358px;
+  background: white;
+  position: relative;
+  left: -40px;
+  text-shadow: 5px 5px 10px lightgray;
+}
+.the_form ul {
+  padding: 300px 0px;
+  list-style: none;
+}
+.the_form li {
+  padding: 15px 0px;
+  list-style: none;
+}
+.the_form label {
+  display: block;
+  cursor: pointer;
+  color: #292929;
+  font-family: sans-serif;
+  padding-bottom: 10px;
+}
+
+.the_form textarea {
+  width: 200px;
+  height: 100px;
+}
+.the_form h1 {
+  text-transform: uppercase;
+}
+.the_form blockquote {
+  border: 2px solid gray;
+  width: 450px;
+  height: 50px;
+  align-items: center;
+  display: flex;
+  margin-left: 5px;
+  padding: 0 0.3rem;
+  font-size: 20px;
+}
+
+.the_form button,
+.the_form a {
+  margin-left: 200px;
+  position: absolute;
+}
+
+.the_form sub {
+  padding: 0 100px;
+}
+.the_form ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+}
+.the_form p5 {
+  padding: 10 10px;
+}
+
+.the_form li {
+  margin-top: 20px;
+  padding: 0 3rem;
+  font-size: 11.95px;
+}
